@@ -33,7 +33,7 @@
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
+    <WarningLevel>5</WarningLevel>
     <LangVersion>8</LangVersion>
   </PropertyGroup>
   <ItemGroup>
@@ -79,7 +79,6 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="assets\background.jpg" />
     <Resource Include="assets\bg_button_update.png" />
     <Resource Include="assets\bg_hints.png" />
     <Resource Include="assets\button_hover_play.png" />
@@ -89,9 +88,14 @@
     <Resource Include="assets\icon_play.png" />
     <Resource Include="assets\icon_update.png" />
     <Resource Include="assets\launcher_ico.png" />
-    <Resource Include="assets\logo.png" />
     <Resource Include="assets\logo_company.png" />
     <Resource Include="assets\rh_lore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="assets\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="assets\logo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

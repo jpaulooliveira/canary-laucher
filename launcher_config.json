@@ -1,5 +1,5 @@
 {
-	"clientVersion": "13.40.1",
+	"clientVersion": "15.00.1",
 	"launcherVersion": "1.0",
 	"replaceFolders": true,
 	"replaceFolderName": [
@@ -14,6 +14,6 @@
 		}
 	],
 	"clientFolder": "Tibia",
-	"newClientUrl" : "https://github.com/jpaulooliveira/canary-laucher/releases/download/publish/mazeot-client.zip",
+	"newClientUrl" : "https://github.com/jpaulooliveira/canary-laucher/releases/download/release-1500/MazeOt-1500.zip",
 	"clientExecutable": "client.exe"
 }
